@@ -1,0 +1,310 @@
+$font: "Roboto", sans-serif
+header
+    min-height: 90px
+    max-height: 100%
+    display: flex
+    background-color: #FCFCFC
+    align-items: center
+html,body
+    scroll-behavior: smooth
+    overflow-x: hidden
+body
+    font-family: $font
+a
+    text-decoration: none!important
+.links
+    display: flex
+    justify-content: space-between
+    align-items: center
+    flex-wrap: wrap
+.right-side
+    align-items: center
+    display: flex
+.link
+    margin-right: 20px
+    font-family: $font
+    font-weight: bold
+    font-size: 19px
+    color: #1d1d1d
+    text-decoration: none
+    text-transform: uppercase
+    &:last-child
+        margin-right: 0
+.tel
+    font-family: $font
+    font-weight: 900
+    font-size: 26px
+    color: #1d1d1d
+    margin-right: 25px
+
+.button-tel
+    font-family: $font
+    font-weight: bold
+    font-size: 14px
+    color: #fff
+    border-radius: 900px
+    background: #9289f1
+    box-shadow: 0px 4px 10px rgba(146, 137, 241, 0.5)
+    padding: 15px 36px
+    text-transform: uppercase
+    transition: .3s all
+    display: block
+    max-width: max-content
+    &:hover
+        color: #fff
+        background: #857cec
+        box-shadow: 0px 4px 10px rgba(146, 137, 241, 1)
+        
+
+    
+.main
+    &_block
+        position: relative
+        &::after
+            content: ""
+            background-image: url('/img/art_1.png')
+            background-repeat: no-repeat
+            width: 1036px
+            height: 686px
+            position: absolute
+            top: -8%
+            right: -8%
+            z-index: -2
+    &_margin
+        margin-top: 168px
+        padding-bottom: 70px
+    &_title
+        max-width: 537px
+        font-family: $font
+        font-weight: bold
+        font-size: 60px
+        line-height: 62px
+        color: #3b3363
+        text-transform: uppercase
+
+    &_desc
+        margin-top: 100px
+        font-family: $font
+        font-weight: normal
+        font-size: 18px
+        color: #696687
+    &_footer
+        margin-top: 25px
+        display: flex
+        flex-wrap: wrap
+        
+.call-me
+    display: block
+    max-width: max-content
+    text-transform: uppercase
+    padding: 20px 55px
+    font-family: $font
+    font-weight: bold
+    font-size: 14px
+    color: #9289f1
+    border-radius: 500px
+    border: 2px solid #9289f1
+    box-shadow: 0px 5px 10px rgba(146, 137, 241, 0.65)
+    transition: .3s all
+    &:hover
+        background-color: #9289f1
+        color: #fff
+.button-calc
+    display: block
+    max-width: max-content
+    border-radius: 90px
+    background: #f1b846
+    box-shadow: 0px 5px 10px rgba(241, 184, 70, 0.45)
+    font-family: $font
+    font-weight: bold
+    font-size: 14px
+    color: #fff !important
+    text-transform: uppercase
+    padding: 20px 41px
+
+    
+
+.h2
+    font-family: $font
+    font-weight: bold
+    font-size: 35px
+    text-align: center
+    color: #3b3363
+
+.mt-100
+    margin-top: 100px
+.mt-30
+    margin-top: 280px
+
+.bg-info
+    background-color: #F9F8FF !important
+.bg-warning
+    background-color: #FFFCF6 !important
+.bg-success
+    background-color: #F0FFFC !important
+.about
+    &-flex
+        display: flex
+        align-items: center
+        justify-content: center
+        flex-direction: column
+    &-img
+        img
+            max-width: 536px
+            max-height: 618px
+            width: 100%
+            height: 100%
+
+    &_title
+        font-family: $font
+        font-weight: bold
+        font-size: 30px
+        text-align: center
+        color: #3b3363
+        margin-bottom: 40px
+    &_desc
+        font-family: $font
+        font-weight: normal
+        font-size: 20px
+        line-height: 26px
+        color: #696687
+
+    &-icon
+        margin-right: 25px
+    &_block
+        display: flex
+        align-items: center
+        padding: 15px 20px 40px 40px
+        margin-bottom: 22px
+        &:last-child
+            margin-bottom: 0
+    &-content
+        &-title
+            font-family: $font
+            font-weight: bold
+            font-size: 25px
+            color: #3b3363
+        &-text
+            font-family: $font
+            font-weight: normal
+            font-size: 14px
+            color: #696687
+
+.prem
+    &-title
+        font-family: $font
+        font-weight: bold
+        font-size: 18px
+        color: #3b3363
+        line-height: 33px
+        text-transform: uppercase
+    &-number
+        font-family: $font
+        font-weight: bold
+        font-size: 130px
+        color: #3b3363
+        opacity: 0.1
+    &-text
+        font-family: $font
+        font-weight: normal
+        font-size: 16px
+        line-height: 20px
+        color: #696687
+
+.desc
+    max-width: 586px
+    font-family: $font
+    font-weight: normal
+    font-size: 16px
+    color: #696687
+    margin: 0 auto
+
+.social
+    background-color: #ECECEC
+    padding: 50px 50px 70px 50px
+    margin-bottom: 16px
+    
+    &-name
+        text-align: center
+        font-family: $font
+        font-weight: bold
+        font-size: 30px
+        color: #3b3363
+        text-transform: uppercase
+
+    &-text
+        margin-top: 20px
+        font-family: $font
+        font-weight: normal
+        font-size: 16px
+        line-height: 18px
+        color: #696687
+    &-icon
+        text-align: center
+p
+    word-break: break-word
+.foo
+    &-t
+        font-family: $font
+        font-weight: bold
+        font-size: 30px
+        line-height: 32px
+        color: #3b3363
+    &-d
+        font-family: $font
+        font-weight: normal
+        font-size: 17px
+        line-height: 19px
+        color: #696687
+    &-tel
+        font-family: $font
+        font-weight: normal
+        font-size: 30px
+        line-height: 32px
+
+        color: #3b3363
+    &-m
+        max-width: 292px
+        margin: 0 auto
+        font-family: $font
+        font-weight: normal
+        font-size: 17px
+        line-height: 19px
+        color: #696687
+
+.form-control
+    border-radius: 0
+    border: none
+    border-bottom: 1px solid #696687
+
+footer
+    background-color: #2C2C2C
+    padding: 40px 0 20px 0 
+    position: relative
+.footer
+  
+    &_link
+        font-family: $font
+        font-weight: normal
+        font-size: 18px
+        color: #fff
+        &s
+            display: flex
+            flex-direction: column
+.xx
+    text-align: right
+
+.go-to-naxyi
+    position: absolute
+    top: -20%
+    right: 50%
+    border-radius: 90px
+    background: #fff
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.16)
+    font-family: $font
+    font-weight: bold
+    font-size: 18px
+    color: #2c2c2c
+    padding: 8px 40px
+
+
